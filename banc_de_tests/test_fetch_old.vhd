@@ -5,6 +5,7 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.std_logic_arith.all;
 
 
 entity test_fetch is
@@ -49,7 +50,7 @@ end process P_TIMEOUT;
 
 --------------------------------------------------
 -- instantiation et mapping du composant à tester
-etageFE0 : entity work.etageFE0(etageFE_arch)
+etageFE0 : entity work.etageFE(etageFE_arch)
     port map(
         npc => E_npc,
         npc_fw_br => E_npc_fw_br,
@@ -62,15 +63,32 @@ etageFE0 : entity work.etageFE0(etageFE_arch)
 );
 
 -----------------------------
--- debut sequence de test
+-- debut sequence de test, cas nouvelle adresse pc
 P_TEST_0: process
 begin 
     -- initialisations
     
-	E_RST <= '0';
-	E_ADR <= 'X';
-	E_D <= (others=>'Z');
-	E_RW <= '1';
+    wait for clkpulse*2; 
+    wait for clkpulse/2;
+
+    E_npc <= conv_std_logic_vector(4, 32);
+    E_GEL_LI <= '1';
+    E_PCSrc_ER <= '0';
+    E_Bpris_EX <= '0';
+    E_npc_fw_br <= (others =>'U');
+
+    wait until (E_CLK = '1');
+
+    assert E_i_FE /= conv_std_logic_vector(4, 32)
+        report "Instr register bad value"
+        severity FAILURE; 
+
+
+    -- LATEST COMMAND (NE PAS ENLEVER !!!)
+	wait until (E_CLK='1'); wait for clkpulse/2;
+	assert FALSE report "FIN DE SIMULATION" severity FAILURE;
+
 end process P_TEST_0;
 
+end test;
 
