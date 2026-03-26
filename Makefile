@@ -1,5 +1,6 @@
 GHDL = ghdl
 GHDL_FLAGS = --ieee=synopsys -fexplicit
+#GHDL_FLAGS = --ieee=synopsys 
 
 SRC_DIR = MACM-main
 TB_DIR = banc_de_tests

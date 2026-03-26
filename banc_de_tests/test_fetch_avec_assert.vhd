@@ -8,12 +8,12 @@ USE IEEE.NUMERIC_STD.ALL;
 USE IEEE.std_logic_arith.all;
 
 
-entity test_fetch is
+entity test_fetch_avec_assert is
     -- pas d'entrées sorties car composant de test
-end test_fetch;
+end test_fetch_avec_assert;
 
 -- Definition de l'architecture
-architecture test of test_fetch is
+architecture test of test_fetch_avec_assert is
 
 -- definition des constantes de test
     constant TIMEOUT 	: time := 150 ns; -- timeout de la simulation
@@ -68,8 +68,14 @@ begin
     E_CLK <= '0';
 
     wait for clkpulse/2;
-    -- ATTENDU : il lit la donnée à l'adresse 5*4 = 20
+    assert E_i_FE = conv_std_logic_vector(5, 32)
+        report "Instr register bad value"
+        severity FAILURE; 
+    assert E_pc_plus_4 = conv_std_logic_vector(6*4, 32)
+        report "pc_plus_4 register bad value"
+        severity FAILURE;
 
+   
     -- TEST 2: cas adresse pc+4
     E_PCSrc_ER <= '0';
 
@@ -79,8 +85,14 @@ begin
     E_CLK <= '0';
 
     wait for clkpulse/2;
-    -- ATTENDU:  il lit la donnée suivante à l'adresse pc+4, soit 6*4 = 24
-    
+    -- il lit la donnée suivante à l'adresse pc+4, soit 6*4 = 24
+    assert E_i_FE = conv_std_logic_vector(6, 32)
+        report "Instr register bad value"
+        severity FAILURE;
+    assert E_pc_plus_4 = conv_std_logic_vector(7*4, 32)
+        report "pc_plus_4 register bad value"
+        severity FAILURE;
+
     -- TEST 3: cas prise de branchement à l'addresse 10*4 = 40
     E_Bpris_EX <= '1';
     E_npc_fw_br <= conv_std_logic_vector(10*4, 32);
@@ -91,8 +103,13 @@ begin
     E_CLK <= '0';
 
     wait for clkpulse/2;
-    -- ATTENDU:  il lit la donnée à l'adresse de branchement, soit 10*4 = 40
-
+    assert E_i_FE = conv_std_logic_vector(10, 32)
+        report "Instr register bad value"
+        severity FAILURE;
+    assert E_pc_plus_4 = conv_std_logic_vector(11*4, 32)
+        report "pc_plus_4 register bad value"
+        severity FAILURE;
+    
     -- TEST 4: cas gel du pipeline -- GEL_LI = '0' => pas de mise à jour du PC
     E_GEL_LI <= '0';
 
@@ -101,12 +118,15 @@ begin
     wait for clkpulse;
     E_CLK <= '0';
 
-    wait for clkpulse/2;
-    -- ATTENDU: le pc garde la même adresse que le cycle précédent, soit 10*4 = 40
-    wait for clkpulse/2;
-    
+    assert E_i_FE = conv_std_logic_vector(10, 32) -- même valeur que le test précédent
+        report "Instr register bad value"
+        severity FAILURE;
+    assert E_pc_plus_4 = conv_std_logic_vector(11*4, 32)
+        report "pc_plus_4 register bad value"
+        severity FAILURE;
+
     -- LATEST COMMAND (NE PAS ENLEVER !!!)
-	wait for clkpulse;
+	wait until (E_CLK='1'); wait for clkpulse/2;
 	assert FALSE report "FIN DE SIMULATION" severity FAILURE;
 
 end process P_TEST_0;
