@@ -1,4 +1,7 @@
 v 4
+file . "banc_de_tests/test_proc.vhd" "cb25c4f1a11cd3263b5c71a07e0c82e23961f55c" "20260408144436.689":
+  entity test_proc at 7( 225) + 0 on 2426;
+  architecture test of test_proc at 17( 407) + 0 on 2427;
 file . "banc_de_tests/test_retire.vhd" "9a34a0c25c52f1dc93930aa2955a7fbad0e05e79" "20260402132747.520":
   entity test_retire at 5( 84) + 0 on 2055;
   architecture test of test_retire at 16( 309) + 0 on 2056;
@@ -8,52 +11,55 @@ file . "banc_de_tests/test_memory.vhd" "c1d75fb3c0f6ea1a98cb132c9d08859f9f6dc3cc
 file . "banc_de_tests/test_execute.vhd" "4c82f945a8bc01c74da0b1d846b9b1691a1b0038" "20260402124610.431":
   entity test_execute at 5( 85) + 0 on 1716;
   architecture test of test_execute at 16( 312) + 0 on 1717;
-file . "MACM-main/etages.vhd" "36c4fa3ba549f35391a8bfa797c4a81ec3a31941" "20260402132747.411":
-  entity etagefe at 5( 64) + 0 on 2045;
-  architecture etagefe_arch of etagefe at 18( 340) + 0 on 2046;
-  entity etagede at 46( 1143) + 0 on 2047;
-  architecture etagede_arch of etagede at 63( 1581) + 0 on 2048;
-  entity etageex at 103( 2448) + 0 on 2049;
-  architecture etageex_arch of etageex at 120( 2915) + 0 on 2050;
-  entity etageme at 156( 3751) + 0 on 2051;
-  architecture etageme_arch of etageme at 171( 4128) + 0 on 2052;
-  entity etageer at 197( 4643) + 0 on 2053;
-  architecture etageer_arch of etageer at 212( 4998) + 0 on 2054;
-file . "MACM-main/combi.vhd" "e625e5375f12fdffa57c9ea826769b457ca68d3f" "20260402132747.264":
-  entity fulladd1b at 6( 100) + 0 on 2029;
-  architecture arche_full_add of fulladd1b at 17( 276) + 0 on 2030;
-  entity addcomplex at 24( 427) + 0 on 2031;
-  architecture arch_add_complex of addcomplex at 36( 679) + 0 on 2032;
-  entity alu at 54( 1054) + 0 on 2033;
-  architecture arch_alu of alu at 70( 1389) + 0 on 2034;
-  entity extension at 108( 2320) + 0 on 2035;
-  architecture arch_ext of extension at 120( 2577) + 0 on 2036;
-file . "MACM-main/reg_bank.vhd" "6ba0f93b170cd55fc76bd67eacafc721bd0d420d" "20260402132747.184":
-  package bus_mux_pkg at 1( 0) + 0 on 2016;
-  entity reg32 at 13( 289) + 0 on 2017;
-  architecture arch_reg of reg32 at 25( 529) + 0 on 2018;
-  entity reg32sync at 47( 1000) + 0 on 2019;
-  architecture arch_reg_sync of reg32sync at 59( 1244) + 0 on 2020;
-  entity reg4 at 82( 1722) + 0 on 2021;
-  architecture arch_reg of reg4 at 94( 1959) + 0 on 2022;
-  entity reg2 at 116( 2425) + 0 on 2023;
-  architecture arch_reg of reg2 at 128( 2662) + 0 on 2024;
-  entity reg1 at 150( 3127) + 0 on 2025;
-  architecture arch_reg of reg1 at 162( 3326) + 0 on 2026;
-  entity registerbank at 185( 3722) + 0 on 2027;
-  architecture arch_reg_bank of registerbank at 207( 4300) + 0 on 2028;
-file . "MACM-main/mem.vhd" "aaf2837cfc31ea820fbf0b89533c1ad5f062f5b0" "20260402132747.354":
-  entity imem at 5( 86) + 0 on 2037;
-  architecture behave of imem at 12( 313) + 0 on 2038;
-  entity inst_mem at 64( 1873) + 0 on 2039;
-  architecture arch_inst_mem of inst_mem at 76( 2083) + 0 on 2040;
-  entity dmem at 87( 2296) + 0 on 2041;
-  architecture behave of dmem at 96( 2558) + 0 on 2042;
-  entity data_mem at 119( 3137) + 0 on 2043;
-  architecture arch_data_mem of data_mem at 133( 3379) + 0 on 2044;
+file . "MACM-main/etages.vhd" "36c4fa3ba549f35391a8bfa797c4a81ec3a31941" "20260408144436.490":
+  entity etagefe at 5( 64) + 0 on 2414;
+  architecture etagefe_arch of etagefe at 18( 340) + 0 on 2415;
+  entity etagede at 46( 1143) + 0 on 2416;
+  architecture etagede_arch of etagede at 63( 1581) + 0 on 2417;
+  entity etageex at 103( 2448) + 0 on 2418;
+  architecture etageex_arch of etageex at 120( 2915) + 0 on 2419;
+  entity etageme at 156( 3751) + 0 on 2420;
+  architecture etageme_arch of etageme at 171( 4128) + 0 on 2421;
+  entity etageer at 197( 4643) + 0 on 2422;
+  architecture etageer_arch of etageer at 212( 4998) + 0 on 2423;
+file . "MACM-main/combi.vhd" "e625e5375f12fdffa57c9ea826769b457ca68d3f" "20260408144436.345":
+  entity fulladd1b at 6( 100) + 0 on 2398;
+  architecture arche_full_add of fulladd1b at 17( 276) + 0 on 2399;
+  entity addcomplex at 24( 427) + 0 on 2400;
+  architecture arch_add_complex of addcomplex at 36( 679) + 0 on 2401;
+  entity alu at 54( 1054) + 0 on 2402;
+  architecture arch_alu of alu at 70( 1389) + 0 on 2403;
+  entity extension at 108( 2320) + 0 on 2404;
+  architecture arch_ext of extension at 120( 2577) + 0 on 2405;
+file . "MACM-main/reg_bank.vhd" "6ba0f93b170cd55fc76bd67eacafc721bd0d420d" "20260408144436.265":
+  package bus_mux_pkg at 1( 0) + 0 on 2385;
+  entity reg32 at 13( 289) + 0 on 2386;
+  architecture arch_reg of reg32 at 25( 529) + 0 on 2387;
+  entity reg32sync at 47( 1000) + 0 on 2388;
+  architecture arch_reg_sync of reg32sync at 59( 1244) + 0 on 2389;
+  entity reg4 at 82( 1722) + 0 on 2390;
+  architecture arch_reg of reg4 at 94( 1959) + 0 on 2391;
+  entity reg2 at 116( 2425) + 0 on 2392;
+  architecture arch_reg of reg2 at 128( 2662) + 0 on 2393;
+  entity reg1 at 150( 3127) + 0 on 2394;
+  architecture arch_reg of reg1 at 162( 3326) + 0 on 2395;
+  entity registerbank at 185( 3722) + 0 on 2396;
+  architecture arch_reg_bank of registerbank at 207( 4300) + 0 on 2397;
+file . "MACM-main/mem.vhd" "aaf2837cfc31ea820fbf0b89533c1ad5f062f5b0" "20260408144436.436":
+  entity imem at 5( 86) + 0 on 2406;
+  architecture behave of imem at 12( 313) + 0 on 2407;
+  entity inst_mem at 64( 1873) + 0 on 2408;
+  architecture arch_inst_mem of inst_mem at 76( 2083) + 0 on 2409;
+  entity dmem at 87( 2296) + 0 on 2410;
+  architecture behave of dmem at 96( 2558) + 0 on 2411;
+  entity data_mem at 119( 3137) + 0 on 2412;
+  architecture arch_data_mem of data_mem at 133( 3379) + 0 on 2413;
 file . "banc_de_tests/test_fetch_avec_assert.vhd" "52bf76c78075c8b191fd1e9fa7c53c4b73bb796b" "20260326134605.735":
   entity test_fetch_avec_assert at 5( 83) + 0 on 785;
   architecture test of test_fetch_avec_assert at 16( 330) + 0 on 786;
 file . "banc_de_tests/test_decode.vhd" "3b9653a9a869bddf8e536cec8a07cf9708e2dbb2" "20260326155906.865":
   entity test_decode at 5( 83) + 0 on 1401;
   architecture test of test_decode at 16( 308) + 0 on 1402;
+file . "MACM-main/proc.vhd" "5227e6d1d6ee0100f6758af630b0621088f088c4" "20260408144436.598":
+  entity datapath at 5( 80) + 0 on 2424;
+  architecture datapath_arch of datapath at 19( 559) + 0 on 2425;
