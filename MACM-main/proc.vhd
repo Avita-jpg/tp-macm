@@ -151,7 +151,7 @@ begin
       source => Res_EX,
       output => Res_ME,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
 
@@ -160,7 +160,7 @@ begin
       source => WD_EX,
       output => WD_ME,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
 
@@ -169,7 +169,7 @@ begin
       source => Op3_EX_out_t,
       output => Op3_ME,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
   
@@ -192,7 +192,7 @@ begin
       source => Res_Mem_ME, 
       output => Res_Mem_RE,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
   
@@ -201,7 +201,7 @@ begin
       source => Res_ALU_ME,
       output => Res_ALU_RE,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
   
@@ -210,7 +210,7 @@ begin
       source => Op3_ME_out_t,
       output => Op3_RE,
       wr => '1',
-      raz => '0',
+      raz => '1',
       clk => clk
     );
  
