@@ -69,6 +69,9 @@ begin
 
     wait for clkpulse/2;
     -- ATTENDU : il lit la donnée à l'adresse 5*4 = 20
+    assert E_pc_plus_4 = conv_std_logic_vector(24, 32)
+        report "pc_plus_4 bad value after TEST 1"
+        severity FAILURE;
 
     -- TEST 2: cas adresse pc+4
     E_PCSrc_ER <= '0';
@@ -80,6 +83,9 @@ begin
 
     wait for clkpulse/2;
     -- ATTENDU:  il lit la donnée suivante à l'adresse pc+4, soit 6*4 = 24
+    assert E_pc_plus_4 = conv_std_logic_vector(28, 32)
+        report "pc_plus_4 bad value after TEST 2"
+        severity FAILURE;
     
     -- TEST 3: cas prise de branchement à l'addresse 10*4 = 40
     E_Bpris_EX <= '1';
@@ -92,6 +98,9 @@ begin
 
     wait for clkpulse/2;
     -- ATTENDU:  il lit la donnée à l'adresse de branchement, soit 10*4 = 40
+    assert E_pc_plus_4 = conv_std_logic_vector(44, 32)
+        report "pc_plus_4 bad value after TEST 3"
+        severity FAILURE;
 
     -- TEST 4: cas gel du pipeline -- GEL_LI = '0' => pas de mise à jour du PC
     E_GEL_LI <= '0';
@@ -103,6 +112,9 @@ begin
 
     wait for clkpulse/2;
     -- ATTENDU: le pc garde la même adresse que le cycle précédent, soit 10*4 = 40
+    assert E_pc_plus_4 = conv_std_logic_vector(44, 32)
+        report "pc_plus_4 should stay unchanged when GEL_LI=0"
+        severity FAILURE;
     wait for clkpulse/2;
     
     -- LATEST COMMAND (NE PAS ENLEVER !!!)

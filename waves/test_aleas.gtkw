@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 20:55:38 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_aleas.ghw"
+[dumpfile_mtime] "Fri Apr 10 20:46:57 2026"
+[dumpfile_size] 1179
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_aleas.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-22.279491 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 220
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@200
+-Inputs
+@24
+#{top.test_aleas.e_a1[3:0]} top.test_aleas.e_a1[3] top.test_aleas.e_a1[2] top.test_aleas.e_a1[1] top.test_aleas.e_a1[0]
+#{top.test_aleas.e_a2[3:0]} top.test_aleas.e_a2[3] top.test_aleas.e_a2[2] top.test_aleas.e_a2[1] top.test_aleas.e_a2[0]
+#{top.test_aleas.e_rs1[3:0]} top.test_aleas.e_rs1[3] top.test_aleas.e_rs1[2] top.test_aleas.e_rs1[1] top.test_aleas.e_rs1[0]
+#{top.test_aleas.e_rs2[3:0]} top.test_aleas.e_rs2[3] top.test_aleas.e_rs2[2] top.test_aleas.e_rs2[1] top.test_aleas.e_rs2[0]
+#{top.test_aleas.e_op3_ex_out[3:0]} top.test_aleas.e_op3_ex_out[3] top.test_aleas.e_op3_ex_out[2] top.test_aleas.e_op3_ex_out[1] top.test_aleas.e_op3_ex_out[0]
+#{top.test_aleas.e_op3_me_out[3:0]} top.test_aleas.e_op3_me_out[3] top.test_aleas.e_op3_me_out[2] top.test_aleas.e_op3_me_out[1] top.test_aleas.e_op3_me_out[0]
+#{top.test_aleas.e_op3_re_out[3:0]} top.test_aleas.e_op3_re_out[3] top.test_aleas.e_op3_re_out[2] top.test_aleas.e_op3_re_out[1] top.test_aleas.e_op3_re_out[0]
+@28
+top.test_aleas.e_regwr_mem
+top.test_aleas.e_regwr_re
+top.test_aleas.e_memtoreg_ex
+top.test_aleas.e_bpris_ex
+top.test_aleas.e_pcsrc_de
+top.test_aleas.e_pcsrc_ex
+top.test_aleas.e_pcsrc_me
+top.test_aleas.e_pcsrc_re
+@200
+-Forwarding
+@24
+#{top.test_aleas.e_ea_ex[1:0]} top.test_aleas.e_ea_ex[1] top.test_aleas.e_ea_ex[0]
+#{top.test_aleas.e_eb_ex[1:0]} top.test_aleas.e_eb_ex[1] top.test_aleas.e_eb_ex[0]
+@200
+-StallFlush
+@28
+top.test_aleas.e_gel_li
+top.test_aleas.e_gel_di
+top.test_aleas.e_raz_di
+top.test_aleas.e_clr_ex
+[pattern_trace] 1
+[pattern_trace] 0

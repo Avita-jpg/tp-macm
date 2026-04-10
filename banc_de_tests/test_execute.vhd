@@ -109,6 +109,16 @@ begin
     E_clk <= '0';
     
     -- ATTENDU : Res_EX = Op1_EX + Op2_EX = 123 + 57 = 180, CC = condition codes de l'operation ADD, npc_fw_br = Res_EX, Op3_EX_out = Op3_EX
+    wait for clkpulse/2;
+    assert E_Res_EX = conv_std_logic_vector(180, 32)
+        report "Res_EX bad value for test 1"
+        severity FAILURE;
+    assert E_npc_fw_br = conv_std_logic_vector(180, 32)
+        report "npc_fw_br bad value for test 1"
+        severity FAILURE;
+    assert E_Op3_EX_out = conv_std_logic_vector(4, 4)
+        report "Op3_EX_out bad value for test 1"
+        severity FAILURE;
     
     wait for clkpulse;
     E_clk <= '1';
@@ -123,6 +133,16 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_EX = Res_fwd_ER + Res_fwd_ME = 111 + 86 = 197, CC = condition codes de l'operation ADD, npc_fw_br = Res_EX, Op3_EX_out = Op3_EX
+    wait for clkpulse/2;
+    assert E_Res_EX = conv_std_logic_vector(197, 32)
+        report "Res_EX bad value for test 2"
+        severity FAILURE;
+    assert E_npc_fw_br = conv_std_logic_vector(197, 32)
+        report "npc_fw_br bad value for test 2"
+        severity FAILURE;
+    assert E_Op3_EX_out = conv_std_logic_vector(4, 4)
+        report "Op3_EX_out bad value for test 2"
+        severity FAILURE;
 
     wait for clkpulse;
     E_clk <= '1';
@@ -136,6 +156,16 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_EX = Res_fwd_ME + ExtImm_EX = 86 + 42 = 128, CC = condition codes de l'operation ADD, npc_fw_br = Res_EX, Op3_EX_out = Op3_EX
+    wait for clkpulse/2;
+    assert E_Res_EX = conv_std_logic_vector(128, 32)
+        report "Res_EX bad value for test 3"
+        severity FAILURE;
+    assert E_npc_fw_br = conv_std_logic_vector(128, 32)
+        report "npc_fw_br bad value for test 3"
+        severity FAILURE;
+    assert E_Op3_EX_out = conv_std_logic_vector(4, 4)
+        report "Op3_EX_out bad value for test 3"
+        severity FAILURE;
 
     -- LATEST COMMAND (NE PAS ENLEVER !!!)
 	wait for clkpulse;

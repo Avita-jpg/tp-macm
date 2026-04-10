@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 20:09:23 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_ctrl.ghw"
+[dumpfile_mtime] "Fri Apr 10 19:53:14 2026"
+[dumpfile_size] 1037
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_ctrl.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 -24
+*-21.714462 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@29
+#{top.test_ctrl.e_instr[31:0]} top.test_ctrl.e_instr[31] top.test_ctrl.e_instr[30] top.test_ctrl.e_instr[29] top.test_ctrl.e_instr[28] top.test_ctrl.e_instr[27] top.test_ctrl.e_instr[26] top.test_ctrl.e_instr[25] top.test_ctrl.e_instr[24] top.test_ctrl.e_instr[23] top.test_ctrl.e_instr[22] top.test_ctrl.e_instr[21] top.test_ctrl.e_instr[20] top.test_ctrl.e_instr[19] top.test_ctrl.e_instr[18] top.test_ctrl.e_instr[17] top.test_ctrl.e_instr[16] top.test_ctrl.e_instr[15] top.test_ctrl.e_instr[14] top.test_ctrl.e_instr[13] top.test_ctrl.e_instr[12] top.test_ctrl.e_instr[11] top.test_ctrl.e_instr[10] top.test_ctrl.e_instr[9] top.test_ctrl.e_instr[8] top.test_ctrl.e_instr[7] top.test_ctrl.e_instr[6] top.test_ctrl.e_instr[5] top.test_ctrl.e_instr[4] top.test_ctrl.e_instr[3] top.test_ctrl.e_instr[2] top.test_ctrl.e_instr[1] top.test_ctrl.e_instr[0]
+@28
+#{top.test_ctrl.e_aluctrl[1:0]} top.test_ctrl.e_aluctrl[1] top.test_ctrl.e_aluctrl[0]
+top.test_ctrl.e_alusrc
+top.test_ctrl.e_branch
+#{top.test_ctrl.e_cond[3:0]} top.test_ctrl.e_cond[3] top.test_ctrl.e_cond[2] top.test_ctrl.e_cond[1] top.test_ctrl.e_cond[0]
+#{top.test_ctrl.e_immsrc[1:0]} top.test_ctrl.e_immsrc[1] top.test_ctrl.e_immsrc[0]
+top.test_ctrl.e_memtoreg
+top.test_ctrl.e_memwr
+top.test_ctrl.e_pcsrc
+#{top.test_ctrl.e_regsrc[1:0]} top.test_ctrl.e_regsrc[1] top.test_ctrl.e_regsrc[0]
+top.test_ctrl.e_regwr
+top.test_ctrl.e_ccwr
+[pattern_trace] 1
+[pattern_trace] 0

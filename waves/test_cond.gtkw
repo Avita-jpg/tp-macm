@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 20:39:18 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_cond.ghw"
+[dumpfile_mtime] "Fri Apr 10 20:37:23 2026"
+[dumpfile_size] 798
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_cond.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 -24
+*-21.961697 2670000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+#{top.test_cond.e_cond[3:0]} top.test_cond.e_cond[3] top.test_cond.e_cond[2] top.test_cond.e_cond[1] top.test_cond.e_cond[0]
+#{top.test_cond.e_cc[3:0]} top.test_cond.e_cc[3] top.test_cond.e_cc[2] top.test_cond.e_cc[1] top.test_cond.e_cc[0]
+#{top.test_cond.e_cc_ex[3:0]} top.test_cond.e_cc_ex[3] top.test_cond.e_cc_ex[2] top.test_cond.e_cc_ex[1] top.test_cond.e_cc_ex[0]
+#{top.test_cond.e_ccp[3:0]} top.test_cond.e_ccp[3] top.test_cond.e_ccp[2] top.test_cond.e_ccp[1] top.test_cond.e_ccp[0]
+top.test_cond.e_ccwr_ex
+top.test_cond.e_condex
+[pattern_trace] 1
+[pattern_trace] 0

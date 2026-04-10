@@ -79,6 +79,13 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_RE = 1234, Op3_RE_out = Op3_RE
+    wait for clkpulse/2;
+    assert E_Res_RE = conv_std_logic_vector(1234, 32)
+        report "Res_RE bad value when MemToReg_RE=1"
+        severity FAILURE;
+    assert E_Op3_RE_out = conv_std_logic_vector(3, 4)
+        report "Op3_RE_out bad value in test 1"
+        severity FAILURE;
     
     wait for clkpulse;
     E_clk <= '1';
@@ -89,6 +96,13 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_RE = 5678, Op3_RE_out = Op3_RE
+    wait for clkpulse/2;
+    assert E_Res_RE = conv_std_logic_vector(5678, 32)
+        report "Res_RE bad value when MemToReg_RE=0"
+        severity FAILURE;
+    assert E_Op3_RE_out = conv_std_logic_vector(3, 4)
+        report "Op3_RE_out bad value in test 2"
+        severity FAILURE;
 
     -- LATEST COMMAND (NE PAS ENLEVER !!!)
 	wait for clkpulse;

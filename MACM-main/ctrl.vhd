@@ -37,8 +37,8 @@ begin
             "10" when instr(27 downto 26) = "10" else
             "00";
 
-  RegSrc <= "00" when instr(27 downto 26) = "00" -- reg/reg ou cmp ou reg/imm
-            "10" when instr(27 downto 26) = "01"  -- LDR ou STR
+  RegSrc <= "00" when instr(27 downto 26) = "00" else -- reg/reg ou cmp ou reg/imm
+            "10" when instr(27 downto 26) = "01" else -- LDR ou STR
             "11" when instr(27 downto 26) = "10" else   -- B               
             "00";
 

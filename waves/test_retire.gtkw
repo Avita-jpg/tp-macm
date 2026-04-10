@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 19:49:17 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_retire.ghw"
+[dumpfile_mtime] "Fri Apr 10 19:48:02 2026"
+[dumpfile_size] 1215
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_retire.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 -24
+*-22.997694 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+top.test_retire.e_clk
+top.test_retire.e_memtoreg_re
+@22
+#{top.test_retire.e_op3_re[3:0]} top.test_retire.e_op3_re[3] top.test_retire.e_op3_re[2] top.test_retire.e_op3_re[1] top.test_retire.e_op3_re[0]
+#{top.test_retire.e_op3_re_out[3:0]} top.test_retire.e_op3_re_out[3] top.test_retire.e_op3_re_out[2] top.test_retire.e_op3_re_out[1] top.test_retire.e_op3_re_out[0]
+@24
+#{top.test_retire.e_res_re[31:0]} top.test_retire.e_res_re[31] top.test_retire.e_res_re[30] top.test_retire.e_res_re[29] top.test_retire.e_res_re[28] top.test_retire.e_res_re[27] top.test_retire.e_res_re[26] top.test_retire.e_res_re[25] top.test_retire.e_res_re[24] top.test_retire.e_res_re[23] top.test_retire.e_res_re[22] top.test_retire.e_res_re[21] top.test_retire.e_res_re[20] top.test_retire.e_res_re[19] top.test_retire.e_res_re[18] top.test_retire.e_res_re[17] top.test_retire.e_res_re[16] top.test_retire.e_res_re[15] top.test_retire.e_res_re[14] top.test_retire.e_res_re[13] top.test_retire.e_res_re[12] top.test_retire.e_res_re[11] top.test_retire.e_res_re[10] top.test_retire.e_res_re[9] top.test_retire.e_res_re[8] top.test_retire.e_res_re[7] top.test_retire.e_res_re[6] top.test_retire.e_res_re[5] top.test_retire.e_res_re[4] top.test_retire.e_res_re[3] top.test_retire.e_res_re[2] top.test_retire.e_res_re[1] top.test_retire.e_res_re[0]
+#{top.test_retire.e_res_alu_re[31:0]} top.test_retire.e_res_alu_re[31] top.test_retire.e_res_alu_re[30] top.test_retire.e_res_alu_re[29] top.test_retire.e_res_alu_re[28] top.test_retire.e_res_alu_re[27] top.test_retire.e_res_alu_re[26] top.test_retire.e_res_alu_re[25] top.test_retire.e_res_alu_re[24] top.test_retire.e_res_alu_re[23] top.test_retire.e_res_alu_re[22] top.test_retire.e_res_alu_re[21] top.test_retire.e_res_alu_re[20] top.test_retire.e_res_alu_re[19] top.test_retire.e_res_alu_re[18] top.test_retire.e_res_alu_re[17] top.test_retire.e_res_alu_re[16] top.test_retire.e_res_alu_re[15] top.test_retire.e_res_alu_re[14] top.test_retire.e_res_alu_re[13] top.test_retire.e_res_alu_re[12] top.test_retire.e_res_alu_re[11] top.test_retire.e_res_alu_re[10] top.test_retire.e_res_alu_re[9] top.test_retire.e_res_alu_re[8] top.test_retire.e_res_alu_re[7] top.test_retire.e_res_alu_re[6] top.test_retire.e_res_alu_re[5] top.test_retire.e_res_alu_re[4] top.test_retire.e_res_alu_re[3] top.test_retire.e_res_alu_re[2] top.test_retire.e_res_alu_re[1] top.test_retire.e_res_alu_re[0]
+#{top.test_retire.e_res_mem_re[31:0]} top.test_retire.e_res_mem_re[31] top.test_retire.e_res_mem_re[30] top.test_retire.e_res_mem_re[29] top.test_retire.e_res_mem_re[28] top.test_retire.e_res_mem_re[27] top.test_retire.e_res_mem_re[26] top.test_retire.e_res_mem_re[25] top.test_retire.e_res_mem_re[24] top.test_retire.e_res_mem_re[23] top.test_retire.e_res_mem_re[22] top.test_retire.e_res_mem_re[21] top.test_retire.e_res_mem_re[20] top.test_retire.e_res_mem_re[19] top.test_retire.e_res_mem_re[18] top.test_retire.e_res_mem_re[17] top.test_retire.e_res_mem_re[16] top.test_retire.e_res_mem_re[15] top.test_retire.e_res_mem_re[14] top.test_retire.e_res_mem_re[13] top.test_retire.e_res_mem_re[12] top.test_retire.e_res_mem_re[11] top.test_retire.e_res_mem_re[10] top.test_retire.e_res_mem_re[9] top.test_retire.e_res_mem_re[8] top.test_retire.e_res_mem_re[7] top.test_retire.e_res_mem_re[6] top.test_retire.e_res_mem_re[5] top.test_retire.e_res_mem_re[4] top.test_retire.e_res_mem_re[3] top.test_retire.e_res_mem_re[2] top.test_retire.e_res_mem_re[1] top.test_retire.e_res_mem_re[0]
+[pattern_trace] 1
+[pattern_trace] 0

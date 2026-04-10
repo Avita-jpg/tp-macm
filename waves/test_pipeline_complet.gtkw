@@ -1,0 +1,97 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 21:37:07 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_pipeline_complet.ghw"
+[dumpfile_mtime] "Fri Apr 10 21:35:47 2026"
+[dumpfile_size] 32513
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_pipeline_complet.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-24.294689 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 330
+[signals_width] 250
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@200
+-Top
+@28
+top.test_pipeline_complet.e_clk
+top.test_pipeline_complet.e_init
+@200
+-Instruction
+@22
+#{top.test_pipeline_complet.pipeline_complet_0.instr_de[31:0]} top.test_pipeline_complet.pipeline_complet_0.instr_de[31] top.test_pipeline_complet.pipeline_complet_0.instr_de[30] top.test_pipeline_complet.pipeline_complet_0.instr_de[29] top.test_pipeline_complet.pipeline_complet_0.instr_de[28] top.test_pipeline_complet.pipeline_complet_0.instr_de[27] top.test_pipeline_complet.pipeline_complet_0.instr_de[26] top.test_pipeline_complet.pipeline_complet_0.instr_de[25] top.test_pipeline_complet.pipeline_complet_0.instr_de[24] top.test_pipeline_complet.pipeline_complet_0.instr_de[23] top.test_pipeline_complet.pipeline_complet_0.instr_de[22] top.test_pipeline_complet.pipeline_complet_0.instr_de[21] top.test_pipeline_complet.pipeline_complet_0.instr_de[20] top.test_pipeline_complet.pipeline_complet_0.instr_de[19] top.test_pipeline_complet.pipeline_complet_0.instr_de[18] top.test_pipeline_complet.pipeline_complet_0.instr_de[17] top.test_pipeline_complet.pipeline_complet_0.instr_de[16] top.test_pipeline_complet.pipeline_complet_0.instr_de[15] top.test_pipeline_complet.pipeline_complet_0.instr_de[14] top.test_pipeline_complet.pipeline_complet_0.instr_de[13] top.test_pipeline_complet.pipeline_complet_0.instr_de[12] top.test_pipeline_complet.pipeline_complet_0.instr_de[11] top.test_pipeline_complet.pipeline_complet_0.instr_de[10] top.test_pipeline_complet.pipeline_complet_0.instr_de[9] top.test_pipeline_complet.pipeline_complet_0.instr_de[8] top.test_pipeline_complet.pipeline_complet_0.instr_de[7] top.test_pipeline_complet.pipeline_complet_0.instr_de[6] top.test_pipeline_complet.pipeline_complet_0.instr_de[5] top.test_pipeline_complet.pipeline_complet_0.instr_de[4] top.test_pipeline_complet.pipeline_complet_0.instr_de[3] top.test_pipeline_complet.pipeline_complet_0.instr_de[2] top.test_pipeline_complet.pipeline_complet_0.instr_de[1] top.test_pipeline_complet.pipeline_complet_0.instr_de[0]
+@201
+-ResultatsRegistres
+@25
+#{top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[31] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[30] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[29] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[28] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[27] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[26] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[25] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[24] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[23] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[22] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[21] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[20] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[19] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[18] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[17] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[16] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[15] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[14] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[13] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[12] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[11] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[10] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[9] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[8] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[7] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[6] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[5] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[4] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[3] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[2] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[1] top.test_pipeline_complet.pipeline_complet_0.proc.op1_de[0]
+#{top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[31] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[30] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[29] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[28] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[27] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[26] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[25] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[24] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[23] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[22] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[21] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[20] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[19] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[18] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[17] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[16] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[15] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[14] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[13] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[12] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[11] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[10] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[9] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[8] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[7] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[6] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[5] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[4] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[3] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[2] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[1] top.test_pipeline_complet.pipeline_complet_0.proc.op2_de[0]
+#{top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[31] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[30] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[29] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[28] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[27] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[26] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[25] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[24] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[23] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[22] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[21] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[20] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[19] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[18] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[17] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[16] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[15] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[14] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[13] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[12] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[11] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[10] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[9] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[8] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[7] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[6] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[5] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[4] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[3] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[2] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[1] top.test_pipeline_complet.pipeline_complet_0.proc.res_ex[0]
+#{top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[31] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[30] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[29] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[28] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[27] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[26] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[25] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[24] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[23] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[22] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[21] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[20] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[19] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[18] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[17] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[16] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[15] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[14] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[13] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[12] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[11] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[10] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[9] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[8] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[7] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[6] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[5] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[4] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[3] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[2] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[1] top.test_pipeline_complet.pipeline_complet_0.proc.res_alu_re[0]
+#{top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[31] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[30] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[29] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[28] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[27] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[26] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[25] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[24] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[23] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[22] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[21] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[20] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[19] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[18] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[17] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[16] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[15] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[14] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[13] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[12] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[11] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[10] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[9] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[8] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[7] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[6] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[5] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[4] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[3] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[2] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[1] top.test_pipeline_complet.pipeline_complet_0.proc.res_mem_re[0]
+#{top.test_pipeline_complet.pipeline_complet_0.proc.res_re[31:0]} top.test_pipeline_complet.pipeline_complet_0.proc.res_re[31] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[30] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[29] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[28] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[27] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[26] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[25] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[24] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[23] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[22] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[21] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[20] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[19] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[18] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[17] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[16] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[15] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[14] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[13] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[12] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[11] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[10] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[9] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[8] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[7] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[6] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[5] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[4] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[3] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[2] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[1] top.test_pipeline_complet.pipeline_complet_0.proc.res_re[0]
+@29
+top.test_pipeline_complet.pipeline_complet_0.proc.op3_re_out_t[3]
+top.test_pipeline_complet.pipeline_complet_0.proc.op3_re_out_t[2]
+top.test_pipeline_complet.pipeline_complet_0.proc.op3_re_out_t[1]
+top.test_pipeline_complet.pipeline_complet_0.proc.op3_re_out_t[0]
+top.test_pipeline_complet.pipeline_complet_0.regwr_4
+@200
+-ControlPipeline
+@28
+top.test_pipeline_complet.pipeline_complet_0.regwr_0
+top.test_pipeline_complet.pipeline_complet_0.regwr_1
+top.test_pipeline_complet.pipeline_complet_0.regwr_2
+top.test_pipeline_complet.pipeline_complet_0.regwr_3
+top.test_pipeline_complet.pipeline_complet_0.regwr_4
+top.test_pipeline_complet.pipeline_complet_0.memtoreg_0
+top.test_pipeline_complet.pipeline_complet_0.memtoreg_1
+top.test_pipeline_complet.pipeline_complet_0.memtoreg_2
+top.test_pipeline_complet.pipeline_complet_0.memtoreg_3
+top.test_pipeline_complet.pipeline_complet_0.memwr_0
+top.test_pipeline_complet.pipeline_complet_0.memwr_1
+top.test_pipeline_complet.pipeline_complet_0.memwr_2
+top.test_pipeline_complet.pipeline_complet_0.memwr_3
+top.test_pipeline_complet.pipeline_complet_0.pcsrc_0
+top.test_pipeline_complet.pipeline_complet_0.pcsrc_1
+top.test_pipeline_complet.pipeline_complet_0.pcsrc_2
+top.test_pipeline_complet.pipeline_complet_0.pcsrc_3
+top.test_pipeline_complet.pipeline_complet_0.pcsrc_4
+top.test_pipeline_complet.pipeline_complet_0.branch_0
+top.test_pipeline_complet.pipeline_complet_0.branch_1
+top.test_pipeline_complet.pipeline_complet_0.branch_2
+top.test_pipeline_complet.pipeline_complet_0.condex_0
+@200
+-Aleas
+@28
+top.test_pipeline_complet.pipeline_complet_0.a1[0]
+top.test_pipeline_complet.pipeline_complet_0.a2[0]
+top.test_pipeline_complet.pipeline_complet_0.rs1[0]
+top.test_pipeline_complet.pipeline_complet_0.rs2[0]
+top.test_pipeline_complet.pipeline_complet_0.op3_ex_out[0]
+top.test_pipeline_complet.pipeline_complet_0.op3_me_out[0]
+top.test_pipeline_complet.pipeline_complet_0.op3_re_out[0]
+top.test_pipeline_complet.pipeline_complet_0.regwr_mem
+top.test_pipeline_complet.pipeline_complet_0.regwr_re
+top.test_pipeline_complet.pipeline_complet_0.memtoreg_ex
+top.test_pipeline_complet.pipeline_complet_0.ea_ex[1]
+top.test_pipeline_complet.pipeline_complet_0.ea_ex[0]
+top.test_pipeline_complet.pipeline_complet_0.eb_ex[1]
+top.test_pipeline_complet.pipeline_complet_0.eb_ex[0]
+top.test_pipeline_complet.pipeline_complet_0.gel_li
+top.test_pipeline_complet.pipeline_complet_0.gel_di
+top.test_pipeline_complet.pipeline_complet_0.raz_di
+top.test_pipeline_complet.pipeline_complet_0.clr_ex
+@200
+-Conditions
+@28
+#{top.test_pipeline_complet.pipeline_complet_0.cc[3:0]} top.test_pipeline_complet.pipeline_complet_0.cc[3] top.test_pipeline_complet.pipeline_complet_0.cc[2] top.test_pipeline_complet.pipeline_complet_0.cc[1] top.test_pipeline_complet.pipeline_complet_0.cc[0]
+#{top.test_pipeline_complet.pipeline_complet_0.cond_0[3:0]} top.test_pipeline_complet.pipeline_complet_0.cond_0[3] top.test_pipeline_complet.pipeline_complet_0.cond_0[2] top.test_pipeline_complet.pipeline_complet_0.cond_0[1] top.test_pipeline_complet.pipeline_complet_0.cond_0[0]
+#{top.test_pipeline_complet.pipeline_complet_0.cond_1[3:0]} top.test_pipeline_complet.pipeline_complet_0.cond_1[3] top.test_pipeline_complet.pipeline_complet_0.cond_1[2] top.test_pipeline_complet.pipeline_complet_0.cond_1[1] top.test_pipeline_complet.pipeline_complet_0.cond_1[0]
+top.test_pipeline_complet.pipeline_complet_0.ccwr_0
+top.test_pipeline_complet.pipeline_complet_0.ccwr_1
+top.test_pipeline_complet.pipeline_complet_0.condex_0
+[pattern_trace] 1
+[pattern_trace] 0

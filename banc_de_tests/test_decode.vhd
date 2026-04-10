@@ -111,16 +111,63 @@ begin
     assert E_Op1 = conv_std_logic_vector(8, 32)
         report "Op1 register bad value"
         severity FAILURE;
+    assert E_Reg1 = "1111"
+        report "Reg1 address bad value"
+        severity FAILURE;
+    assert E_Reg2 = "0100"
+        report "Reg2 address bad value"
+        severity FAILURE;
 
     --------------------
-    -- TEST 3: TODO - similaire au test 2 mais avec des valeurs differentes de RegSrc
-    -- ecrivant de nouvelles valeurs dans d'autres registres du banc de registres
-    
-    -- TODO 
-    
-    -- TEST 5: test de l'extension d'immédiat (vraiment nécessaire? à voir)
-    E_i_DE <= (23 downto 0 => '1'); -- on met une valeur d'immédiat à 24 bits
-    E_immSrc <= "10"; -- on selectionne une extension 24bit
+    -- TEST 3: lecture classique avec RegSrc = "00" (Rn et Rm)
+    -- On lit r4 sur les deux ports pour verifier les chemins de selection
+    E_RegSrc <= "00";
+    E_i_DE <= (others => '0');
+    E_i_DE(19 downto 16) <= "0100"; -- Rn = r4 -> Op1
+    E_i_DE(3 downto 0) <= "0100";   -- Rm = r4 -> Op2
+
+    wait for clkpulse/2;
+    E_clk <= '1';
+    wait for clkpulse;
+    E_clk <= '0';
+    wait for clkpulse/2;
+
+    assert E_Reg1 = "0100"
+        report "Reg1 should select Rn when RegSrc(0)=0"
+        severity FAILURE;
+    assert E_Reg2 = "0100"
+        report "Reg2 should select Rm when RegSrc(1)=0"
+        severity FAILURE;
+    assert E_Op1 = conv_std_logic_vector(1234, 32)
+        report "Op1 register bad value for RegSrc=00"
+        severity FAILURE;
+    assert E_Op2 = conv_std_logic_vector(1234, 32)
+        report "Op2 register bad value for RegSrc=00"
+        severity FAILURE;
+
+    -- TEST 4: extension immediate 12 bits signee (immSrc = "00")
+    -- immIn(11) = 1 -> extension signee attendue: 0xFFFFF800
+    E_immSrc <= "00";
+    E_i_DE <= (others => '0');
+    E_i_DE(11) <= '1';
+
+    wait for clkpulse/2;
+
+    assert E_extImm = std_logic_vector(to_signed(-2048, 32))
+        report "extImm bad value for immSrc=00 (signed 12-bit extension)"
+        severity FAILURE;
+
+    -- TEST 5: extension immediate 24 bits (immSrc = "10")
+    -- immIn = 0xFFFFFF -> extension attendue: 0xFFFFFFFF
+    E_immSrc <= "10";
+    E_i_DE <= (others => '0');
+    E_i_DE(23 downto 0) <= (others => '1');
+
+    wait for clkpulse/2;
+
+    assert E_extImm = std_logic_vector(to_signed(-1, 32))
+        report "extImm bad value for immSrc=10 (24-bit extension)"
+        severity FAILURE;
     
     -- LATEST COMMAND (NE PAS ENLEVER !!!)
 	wait for clkpulse;

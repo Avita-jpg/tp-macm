@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 19:44:55 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_memory.ghw"
+[dumpfile_mtime] "Fri Apr 10 19:41:01 2026"
+[dumpfile_size] 2127
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_memory.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 -24
+*-22.594587 8260000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 227
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+top.test_memory.e_clk
+top.test_memory.e_memwr_mem
+@24
+#{top.test_memory.e_res_mem_me[31:0]} top.test_memory.e_res_mem_me[31] top.test_memory.e_res_mem_me[30] top.test_memory.e_res_mem_me[29] top.test_memory.e_res_mem_me[28] top.test_memory.e_res_mem_me[27] top.test_memory.e_res_mem_me[26] top.test_memory.e_res_mem_me[25] top.test_memory.e_res_mem_me[24] top.test_memory.e_res_mem_me[23] top.test_memory.e_res_mem_me[22] top.test_memory.e_res_mem_me[21] top.test_memory.e_res_mem_me[20] top.test_memory.e_res_mem_me[19] top.test_memory.e_res_mem_me[18] top.test_memory.e_res_mem_me[17] top.test_memory.e_res_mem_me[16] top.test_memory.e_res_mem_me[15] top.test_memory.e_res_mem_me[14] top.test_memory.e_res_mem_me[13] top.test_memory.e_res_mem_me[12] top.test_memory.e_res_mem_me[11] top.test_memory.e_res_mem_me[10] top.test_memory.e_res_mem_me[9] top.test_memory.e_res_mem_me[8] top.test_memory.e_res_mem_me[7] top.test_memory.e_res_mem_me[6] top.test_memory.e_res_mem_me[5] top.test_memory.e_res_mem_me[4] top.test_memory.e_res_mem_me[3] top.test_memory.e_res_mem_me[2] top.test_memory.e_res_mem_me[1] top.test_memory.e_res_mem_me[0]
+#{top.test_memory.e_res_alu_me[31:0]} top.test_memory.e_res_alu_me[31] top.test_memory.e_res_alu_me[30] top.test_memory.e_res_alu_me[29] top.test_memory.e_res_alu_me[28] top.test_memory.e_res_alu_me[27] top.test_memory.e_res_alu_me[26] top.test_memory.e_res_alu_me[25] top.test_memory.e_res_alu_me[24] top.test_memory.e_res_alu_me[23] top.test_memory.e_res_alu_me[22] top.test_memory.e_res_alu_me[21] top.test_memory.e_res_alu_me[20] top.test_memory.e_res_alu_me[19] top.test_memory.e_res_alu_me[18] top.test_memory.e_res_alu_me[17] top.test_memory.e_res_alu_me[16] top.test_memory.e_res_alu_me[15] top.test_memory.e_res_alu_me[14] top.test_memory.e_res_alu_me[13] top.test_memory.e_res_alu_me[12] top.test_memory.e_res_alu_me[11] top.test_memory.e_res_alu_me[10] top.test_memory.e_res_alu_me[9] top.test_memory.e_res_alu_me[8] top.test_memory.e_res_alu_me[7] top.test_memory.e_res_alu_me[6] top.test_memory.e_res_alu_me[5] top.test_memory.e_res_alu_me[4] top.test_memory.e_res_alu_me[3] top.test_memory.e_res_alu_me[2] top.test_memory.e_res_alu_me[1] top.test_memory.e_res_alu_me[0]
+#{top.test_memory.e_res_me[31:0]} top.test_memory.e_res_me[31] top.test_memory.e_res_me[30] top.test_memory.e_res_me[29] top.test_memory.e_res_me[28] top.test_memory.e_res_me[27] top.test_memory.e_res_me[26] top.test_memory.e_res_me[25] top.test_memory.e_res_me[24] top.test_memory.e_res_me[23] top.test_memory.e_res_me[22] top.test_memory.e_res_me[21] top.test_memory.e_res_me[20] top.test_memory.e_res_me[19] top.test_memory.e_res_me[18] top.test_memory.e_res_me[17] top.test_memory.e_res_me[16] top.test_memory.e_res_me[15] top.test_memory.e_res_me[14] top.test_memory.e_res_me[13] top.test_memory.e_res_me[12] top.test_memory.e_res_me[11] top.test_memory.e_res_me[10] top.test_memory.e_res_me[9] top.test_memory.e_res_me[8] top.test_memory.e_res_me[7] top.test_memory.e_res_me[6] top.test_memory.e_res_me[5] top.test_memory.e_res_me[4] top.test_memory.e_res_me[3] top.test_memory.e_res_me[2] top.test_memory.e_res_me[1] top.test_memory.e_res_me[0]
+#{top.test_memory.e_res_fwd_me[31:0]} top.test_memory.e_res_fwd_me[31] top.test_memory.e_res_fwd_me[30] top.test_memory.e_res_fwd_me[29] top.test_memory.e_res_fwd_me[28] top.test_memory.e_res_fwd_me[27] top.test_memory.e_res_fwd_me[26] top.test_memory.e_res_fwd_me[25] top.test_memory.e_res_fwd_me[24] top.test_memory.e_res_fwd_me[23] top.test_memory.e_res_fwd_me[22] top.test_memory.e_res_fwd_me[21] top.test_memory.e_res_fwd_me[20] top.test_memory.e_res_fwd_me[19] top.test_memory.e_res_fwd_me[18] top.test_memory.e_res_fwd_me[17] top.test_memory.e_res_fwd_me[16] top.test_memory.e_res_fwd_me[15] top.test_memory.e_res_fwd_me[14] top.test_memory.e_res_fwd_me[13] top.test_memory.e_res_fwd_me[12] top.test_memory.e_res_fwd_me[11] top.test_memory.e_res_fwd_me[10] top.test_memory.e_res_fwd_me[9] top.test_memory.e_res_fwd_me[8] top.test_memory.e_res_fwd_me[7] top.test_memory.e_res_fwd_me[6] top.test_memory.e_res_fwd_me[5] top.test_memory.e_res_fwd_me[4] top.test_memory.e_res_fwd_me[3] top.test_memory.e_res_fwd_me[2] top.test_memory.e_res_fwd_me[1] top.test_memory.e_res_fwd_me[0]
+#{top.test_memory.e_wd_me[31:0]} top.test_memory.e_wd_me[31] top.test_memory.e_wd_me[30] top.test_memory.e_wd_me[29] top.test_memory.e_wd_me[28] top.test_memory.e_wd_me[27] top.test_memory.e_wd_me[26] top.test_memory.e_wd_me[25] top.test_memory.e_wd_me[24] top.test_memory.e_wd_me[23] top.test_memory.e_wd_me[22] top.test_memory.e_wd_me[21] top.test_memory.e_wd_me[20] top.test_memory.e_wd_me[19] top.test_memory.e_wd_me[18] top.test_memory.e_wd_me[17] top.test_memory.e_wd_me[16] top.test_memory.e_wd_me[15] top.test_memory.e_wd_me[14] top.test_memory.e_wd_me[13] top.test_memory.e_wd_me[12] top.test_memory.e_wd_me[11] top.test_memory.e_wd_me[10] top.test_memory.e_wd_me[9] top.test_memory.e_wd_me[8] top.test_memory.e_wd_me[7] top.test_memory.e_wd_me[6] top.test_memory.e_wd_me[5] top.test_memory.e_wd_me[4] top.test_memory.e_wd_me[3] top.test_memory.e_wd_me[2] top.test_memory.e_wd_me[1] top.test_memory.e_wd_me[0]
+@22
+#{top.test_memory.e_op3_me[3:0]} top.test_memory.e_op3_me[3] top.test_memory.e_op3_me[2] top.test_memory.e_op3_me[1] top.test_memory.e_op3_me[0]
+#{top.test_memory.e_op3_me_out[3:0]} top.test_memory.e_op3_me_out[3] top.test_memory.e_op3_me_out[2] top.test_memory.e_op3_me_out[1] top.test_memory.e_op3_me_out[0]
+[pattern_trace] 1
+[pattern_trace] 0

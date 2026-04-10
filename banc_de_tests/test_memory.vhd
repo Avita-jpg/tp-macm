@@ -95,6 +95,19 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_Mem_ME = 1234, Res_ALU_ME = 16, Res_fwd_ME = 16, Op3_ME_out = Op3_ME
+    wait for clkpulse/2;
+    assert E_Res_Mem_ME = conv_std_logic_vector(1234, 32)
+        report "Res_Mem_ME bad value for read @16"
+        severity FAILURE;
+    assert E_Res_ALU_ME = conv_std_logic_vector(16, 32)
+        report "Res_ALU_ME bad value for read @16"
+        severity FAILURE;
+    assert E_Res_fwd_ME = conv_std_logic_vector(16, 32)
+        report "Res_fwd_ME bad value for read @16"
+        severity FAILURE;
+    assert E_Op3_ME_out = conv_std_logic_vector(0, 4)
+        report "Op3_ME_out bad value for read @16"
+        severity FAILURE;
 
     wait for clkpulse;
     E_clk <= '1';
@@ -105,6 +118,19 @@ begin
     E_clk <= '0';
 
     -- ATTENDU : Res_Mem_ME = 5678, Res_ALU_ME = 20, Res_fwd_ME = 20, Op3_ME_out = Op3_ME
+    wait for clkpulse/2;
+    assert E_Res_Mem_ME = conv_std_logic_vector(5678, 32)
+        report "Res_Mem_ME bad value for read @20"
+        severity FAILURE;
+    assert E_Res_ALU_ME = conv_std_logic_vector(20, 32)
+        report "Res_ALU_ME bad value for read @20"
+        severity FAILURE;
+    assert E_Res_fwd_ME = conv_std_logic_vector(20, 32)
+        report "Res_fwd_ME bad value for read @20"
+        severity FAILURE;
+    assert E_Op3_ME_out = conv_std_logic_vector(0, 4)
+        report "Op3_ME_out bad value for read @20"
+        severity FAILURE;
 
     -- LATEST COMMAND (NE PAS ENLEVER !!!)
 	wait for clkpulse;

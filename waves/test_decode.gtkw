@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 19:21:04 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_decode.ghw"
+[dumpfile_mtime] "Fri Apr 10 18:33:48 2026"
+[dumpfile_size] 7812
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_decode.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-22.571188 38510000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.test_decode.
+[sst_width] 297
+[signals_width] 231
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@24
+top.test_decode.e_clk
+@28
+top.test_decode.e_regwr
+@24
+#{top.test_decode.e_wd_er[31:0]} top.test_decode.e_wd_er[31] top.test_decode.e_wd_er[30] top.test_decode.e_wd_er[29] top.test_decode.e_wd_er[28] top.test_decode.e_wd_er[27] top.test_decode.e_wd_er[26] top.test_decode.e_wd_er[25] top.test_decode.e_wd_er[24] top.test_decode.e_wd_er[23] top.test_decode.e_wd_er[22] top.test_decode.e_wd_er[21] top.test_decode.e_wd_er[20] top.test_decode.e_wd_er[19] top.test_decode.e_wd_er[18] top.test_decode.e_wd_er[17] top.test_decode.e_wd_er[16] top.test_decode.e_wd_er[15] top.test_decode.e_wd_er[14] top.test_decode.e_wd_er[13] top.test_decode.e_wd_er[12] top.test_decode.e_wd_er[11] top.test_decode.e_wd_er[10] top.test_decode.e_wd_er[9] top.test_decode.e_wd_er[8] top.test_decode.e_wd_er[7] top.test_decode.e_wd_er[6] top.test_decode.e_wd_er[5] top.test_decode.e_wd_er[4] top.test_decode.e_wd_er[3] top.test_decode.e_wd_er[2] top.test_decode.e_wd_er[1] top.test_decode.e_wd_er[0]
+#{top.test_decode.e_op1[31:0]} top.test_decode.e_op1[31] top.test_decode.e_op1[30] top.test_decode.e_op1[29] top.test_decode.e_op1[28] top.test_decode.e_op1[27] top.test_decode.e_op1[26] top.test_decode.e_op1[25] top.test_decode.e_op1[24] top.test_decode.e_op1[23] top.test_decode.e_op1[22] top.test_decode.e_op1[21] top.test_decode.e_op1[20] top.test_decode.e_op1[19] top.test_decode.e_op1[18] top.test_decode.e_op1[17] top.test_decode.e_op1[16] top.test_decode.e_op1[15] top.test_decode.e_op1[14] top.test_decode.e_op1[13] top.test_decode.e_op1[12] top.test_decode.e_op1[11] top.test_decode.e_op1[10] top.test_decode.e_op1[9] top.test_decode.e_op1[8] top.test_decode.e_op1[7] top.test_decode.e_op1[6] top.test_decode.e_op1[5] top.test_decode.e_op1[4] top.test_decode.e_op1[3] top.test_decode.e_op1[2] top.test_decode.e_op1[1] top.test_decode.e_op1[0]
+#{top.test_decode.e_op2[31:0]} top.test_decode.e_op2[31] top.test_decode.e_op2[30] top.test_decode.e_op2[29] top.test_decode.e_op2[28] top.test_decode.e_op2[27] top.test_decode.e_op2[26] top.test_decode.e_op2[25] top.test_decode.e_op2[24] top.test_decode.e_op2[23] top.test_decode.e_op2[22] top.test_decode.e_op2[21] top.test_decode.e_op2[20] top.test_decode.e_op2[19] top.test_decode.e_op2[18] top.test_decode.e_op2[17] top.test_decode.e_op2[16] top.test_decode.e_op2[15] top.test_decode.e_op2[14] top.test_decode.e_op2[13] top.test_decode.e_op2[12] top.test_decode.e_op2[11] top.test_decode.e_op2[10] top.test_decode.e_op2[9] top.test_decode.e_op2[8] top.test_decode.e_op2[7] top.test_decode.e_op2[6] top.test_decode.e_op2[5] top.test_decode.e_op2[4] top.test_decode.e_op2[3] top.test_decode.e_op2[2] top.test_decode.e_op2[1] top.test_decode.e_op2[0]
+#{top.test_decode.e_reg1[3:0]} top.test_decode.e_reg1[3] top.test_decode.e_reg1[2] top.test_decode.e_reg1[1] top.test_decode.e_reg1[0]
+#{top.test_decode.e_reg2[3:0]} top.test_decode.e_reg2[3] top.test_decode.e_reg2[2] top.test_decode.e_reg2[1] top.test_decode.e_reg2[0]
+@420
+#{top.test_decode.e_extimm[31:0]} top.test_decode.e_extimm[31] top.test_decode.e_extimm[30] top.test_decode.e_extimm[29] top.test_decode.e_extimm[28] top.test_decode.e_extimm[27] top.test_decode.e_extimm[26] top.test_decode.e_extimm[25] top.test_decode.e_extimm[24] top.test_decode.e_extimm[23] top.test_decode.e_extimm[22] top.test_decode.e_extimm[21] top.test_decode.e_extimm[20] top.test_decode.e_extimm[19] top.test_decode.e_extimm[18] top.test_decode.e_extimm[17] top.test_decode.e_extimm[16] top.test_decode.e_extimm[15] top.test_decode.e_extimm[14] top.test_decode.e_extimm[13] top.test_decode.e_extimm[12] top.test_decode.e_extimm[11] top.test_decode.e_extimm[10] top.test_decode.e_extimm[9] top.test_decode.e_extimm[8] top.test_decode.e_extimm[7] top.test_decode.e_extimm[6] top.test_decode.e_extimm[5] top.test_decode.e_extimm[4] top.test_decode.e_extimm[3] top.test_decode.e_extimm[2] top.test_decode.e_extimm[1] top.test_decode.e_extimm[0]
+@28
+#{top.test_decode.e_immsrc[1:0]} top.test_decode.e_immsrc[1] top.test_decode.e_immsrc[0]
+[pattern_trace] 1
+[pattern_trace] 0

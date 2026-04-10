@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Apr 10 17:52:18 2026
+[*]
+[dumpfile] "/home/avita/Master/M1/MACM/tp-macm/test_fetch.ghw"
+[dumpfile_mtime] "Fri Apr 10 16:25:56 2026"
+[dumpfile_size] 4528
+[savefile] "/home/avita/Master/M1/MACM/tp-macm/waves/test_fetch.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 -24
+*-22.586487 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.test_fetch.
+[sst_width] 297
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+top.test_fetch.e_clk
+@24
+#{top.test_fetch.e_pc_plus_4[31:0]} top.test_fetch.e_pc_plus_4[31] top.test_fetch.e_pc_plus_4[30] top.test_fetch.e_pc_plus_4[29] top.test_fetch.e_pc_plus_4[28] top.test_fetch.e_pc_plus_4[27] top.test_fetch.e_pc_plus_4[26] top.test_fetch.e_pc_plus_4[25] top.test_fetch.e_pc_plus_4[24] top.test_fetch.e_pc_plus_4[23] top.test_fetch.e_pc_plus_4[22] top.test_fetch.e_pc_plus_4[21] top.test_fetch.e_pc_plus_4[20] top.test_fetch.e_pc_plus_4[19] top.test_fetch.e_pc_plus_4[18] top.test_fetch.e_pc_plus_4[17] top.test_fetch.e_pc_plus_4[16] top.test_fetch.e_pc_plus_4[15] top.test_fetch.e_pc_plus_4[14] top.test_fetch.e_pc_plus_4[13] top.test_fetch.e_pc_plus_4[12] top.test_fetch.e_pc_plus_4[11] top.test_fetch.e_pc_plus_4[10] top.test_fetch.e_pc_plus_4[9] top.test_fetch.e_pc_plus_4[8] top.test_fetch.e_pc_plus_4[7] top.test_fetch.e_pc_plus_4[6] top.test_fetch.e_pc_plus_4[5] top.test_fetch.e_pc_plus_4[4] top.test_fetch.e_pc_plus_4[3] top.test_fetch.e_pc_plus_4[2] top.test_fetch.e_pc_plus_4[1] top.test_fetch.e_pc_plus_4[0]
+#{top.test_fetch.e_npc[31:0]} top.test_fetch.e_npc[31] top.test_fetch.e_npc[30] top.test_fetch.e_npc[29] top.test_fetch.e_npc[28] top.test_fetch.e_npc[27] top.test_fetch.e_npc[26] top.test_fetch.e_npc[25] top.test_fetch.e_npc[24] top.test_fetch.e_npc[23] top.test_fetch.e_npc[22] top.test_fetch.e_npc[21] top.test_fetch.e_npc[20] top.test_fetch.e_npc[19] top.test_fetch.e_npc[18] top.test_fetch.e_npc[17] top.test_fetch.e_npc[16] top.test_fetch.e_npc[15] top.test_fetch.e_npc[14] top.test_fetch.e_npc[13] top.test_fetch.e_npc[12] top.test_fetch.e_npc[11] top.test_fetch.e_npc[10] top.test_fetch.e_npc[9] top.test_fetch.e_npc[8] top.test_fetch.e_npc[7] top.test_fetch.e_npc[6] top.test_fetch.e_npc[5] top.test_fetch.e_npc[4] top.test_fetch.e_npc[3] top.test_fetch.e_npc[2] top.test_fetch.e_npc[1] top.test_fetch.e_npc[0]
+@28
+top.test_fetch.e_pcsrc_er
+top.test_fetch.e_bpris_ex
+@24
+#{top.test_fetch.e_npc_fw_br[31:0]} top.test_fetch.e_npc_fw_br[31] top.test_fetch.e_npc_fw_br[30] top.test_fetch.e_npc_fw_br[29] top.test_fetch.e_npc_fw_br[28] top.test_fetch.e_npc_fw_br[27] top.test_fetch.e_npc_fw_br[26] top.test_fetch.e_npc_fw_br[25] top.test_fetch.e_npc_fw_br[24] top.test_fetch.e_npc_fw_br[23] top.test_fetch.e_npc_fw_br[22] top.test_fetch.e_npc_fw_br[21] top.test_fetch.e_npc_fw_br[20] top.test_fetch.e_npc_fw_br[19] top.test_fetch.e_npc_fw_br[18] top.test_fetch.e_npc_fw_br[17] top.test_fetch.e_npc_fw_br[16] top.test_fetch.e_npc_fw_br[15] top.test_fetch.e_npc_fw_br[14] top.test_fetch.e_npc_fw_br[13] top.test_fetch.e_npc_fw_br[12] top.test_fetch.e_npc_fw_br[11] top.test_fetch.e_npc_fw_br[10] top.test_fetch.e_npc_fw_br[9] top.test_fetch.e_npc_fw_br[8] top.test_fetch.e_npc_fw_br[7] top.test_fetch.e_npc_fw_br[6] top.test_fetch.e_npc_fw_br[5] top.test_fetch.e_npc_fw_br[4] top.test_fetch.e_npc_fw_br[3] top.test_fetch.e_npc_fw_br[2] top.test_fetch.e_npc_fw_br[1] top.test_fetch.e_npc_fw_br[0]
+@28
+top.test_fetch.e_gel_li
+@24
+#{top.test_fetch.e_i_fe[31:0]} top.test_fetch.e_i_fe[31] top.test_fetch.e_i_fe[30] top.test_fetch.e_i_fe[29] top.test_fetch.e_i_fe[28] top.test_fetch.e_i_fe[27] top.test_fetch.e_i_fe[26] top.test_fetch.e_i_fe[25] top.test_fetch.e_i_fe[24] top.test_fetch.e_i_fe[23] top.test_fetch.e_i_fe[22] top.test_fetch.e_i_fe[21] top.test_fetch.e_i_fe[20] top.test_fetch.e_i_fe[19] top.test_fetch.e_i_fe[18] top.test_fetch.e_i_fe[17] top.test_fetch.e_i_fe[16] top.test_fetch.e_i_fe[15] top.test_fetch.e_i_fe[14] top.test_fetch.e_i_fe[13] top.test_fetch.e_i_fe[12] top.test_fetch.e_i_fe[11] top.test_fetch.e_i_fe[10] top.test_fetch.e_i_fe[9] top.test_fetch.e_i_fe[8] top.test_fetch.e_i_fe[7] top.test_fetch.e_i_fe[6] top.test_fetch.e_i_fe[5] top.test_fetch.e_i_fe[4] top.test_fetch.e_i_fe[3] top.test_fetch.e_i_fe[2] top.test_fetch.e_i_fe[1] top.test_fetch.e_i_fe[0]
+[pattern_trace] 1
+[pattern_trace] 0
