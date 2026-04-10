@@ -45,7 +45,6 @@ help:
 	@echo "  make test_ctrl                     - Test control unit"
 	@echo "  make test_cond                     - Test condition unit"
 	@echo "  make test_aleas                    - Test hazard unit"
-	@echo "  make test_proc                     - Test dataPath (proc)"
 	@echo "  make test_pipeline_complet         - Test complete pipeline"
 	@echo ""
 	@echo "Other targets:"
@@ -53,7 +52,7 @@ help:
 	@echo "  make clean                         - Clean generated files"
 	@echo ""
 	@echo "Usage examples:"
-	@echo "  make test_proc                     # Run test_proc and generate waves/test_proc.ghw"
+	@echo "  make test_ctrl                     # Run test_ctrl and generate waves/test_ctrl.ghw"
 	@echo "  make wave TB=test_fetch            # Open waves/test_fetch.gtkw (or .ghw fallback)"
 	@echo ""
 
